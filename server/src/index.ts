@@ -7,7 +7,7 @@ dotenv.config();
 import cors from "cors";
 import morgan from "morgan";
 import helmet from "helmet";
-import mongoSanitize from "express-mongo-sanitize";
+// import mongoSanitize from "express-mongo-sanitize";
 import passport from "passport";
 import connectDB from "./config/db";
 import l from "./config/logger";
@@ -35,7 +35,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true, limit: "100kb" }));
 app.use(express.text({ limit: "100kb" }));
 app.use(helmet());
-app.use(mongoSanitize());
+// app.use(mongoSanitize());
 app.disable("x-powered-by");
 // app.use(favicon(path.join(__dirname, "assets", "favicon.ico")));
 // @ts-expect-error fix for typescript error
