@@ -1,0 +1,64 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#app {
+  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+:root {
+  --mpp-rl-primary-contrast-color: #000 !important; /* Default for light mode */
+}
+
+html.dark {
+  --mpp-rl-primary-contrast-color: #fff !important; /* For dark mode */
+}
+
+.p-divider-content {
+  background-color: #fafafa !important; /* Light mode (neutral-50) */
+}
+
+html.dark .p-divider-content {
+  background-color: #121212 !important; /* Dark mode (original, like neutral-950) */
+}
+
+*,
+*::before,
+*::after {
+  word-break: normal;
+}
+
+button {
+  cursor: pointer;
+}
+
+ol {
+  list-style: decimal !important;
+}
+
+code {
+  text-wrap: wrap !important;
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* FADE */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 250ms ease-in-out;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}

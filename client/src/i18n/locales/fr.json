@@ -1,0 +1,106 @@
+{
+  "title": {
+    "forecasts": "Pronostics",
+    "leaderboard": "Classement",
+    "profile": "Profil",
+    "results": "Résultats",
+    "matches": "Matchs"
+  },
+  "status": { "not_started": "Pas commencé", "running": "En cours", "finished": "Terminé" },
+  "common": {
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "email": "Adresse e-mail",
+    "error": "Erreur",
+    "loading": "Chargement...",
+    "noResultsFound": "Aucun résultat trouvé",
+    "noForecastsFound": "Aucun pronostic trouvé",
+    "na": "N/D",
+    "or": "OU",
+    "back": "Retour",
+    "logoAlt": "Logo"
+  },
+  "error": {
+    "notFound": {
+      "title": "404 - Page Introuvable",
+      "message": "Oups ! La page que vous recherchez semble inexistante.",
+      "homeButton": "Aller à la page d'accueil"
+    }
+  },
+  "time": { "hoursSuffix": "h ", "minutesSuffix": "m ", "secondsSuffix": "s" },
+  "forecast": {
+    "noForecastSubmitted": "Aucun pronostic soumis.",
+    "pending": "En attente...",
+    "exact": "Exact",
+    "correct": "Correct",
+    "incorrect": "Incorrect",
+    "pointsSuffix": "pts",
+    "chooseWinner": "Choisissez un gagnant"
+  },
+  "layout": {
+    "navBar": { "homeAltText": "Accueil" },
+    "themeSwitcher": { "toggleThemeLabel": "Changer de thème" }
+  },
+  "match": {
+    "bestOf": "Meilleur de :",
+    "statusLabel": "Statut :",
+    "scheduledLabel": "Prévu :",
+    "versus": "vs",
+    "gamesHeading": "Manches",
+    "gameLabel": "Manche {number}",
+    "gameWon": "{teamName} a gagné",
+    "notFinished": "Pas terminé"
+  },
+  "pages": {
+    "home": {
+      "title": "Matchs de Rocket League",
+      "subtitle": "Mises à jour en direct des matchs actuels et à venir",
+      "liveMatches": "🟢 Matchs en direct",
+      "nextMatch": "Prochain match :",
+      "startingNow": "Commence maintenant",
+      "noMatchesAvailable": "🚫 Aucun match disponible pour le moment."
+    },
+    "login": {
+      "heading": "Connexion",
+      "emailPlaceholder": "{'eg: jean.dupont@gmail.com'}",
+      "passwordPlaceholder": "••••••••",
+      "registerPrompt": "Vous n'avez pas de compte ? Inscrivez-vous ici",
+      "loginWithGoogle": "Se connecter avec Google",
+      "invalidCredentialsToast": "Identifiants invalides"
+    },
+    "profile": {
+      "personalInformation": "Informations personnelles",
+      "firstNameLabel": "Prénom",
+      "lastNameLabel": "Nom de famille",
+      "accountInformation": "Informations du compte",
+      "usernamePlaceholder": "Entrez votre nom d'utilisateur",
+      "updateUsernameButton": "Mettre à jour le nom d'utilisateur",
+      "changePassword": "Changer le mot de passe",
+      "oldPasswordLabel": "Ancien mot de passe",
+      "oldPasswordPlaceholder": "Entrez votre ancien mot de passe",
+      "newPasswordLabel": "Nouveau mot de passe",
+      "newPasswordPlaceholder": "Entrez votre nouveau mot de passe",
+      "updatePasswordButton": "Mettre à jour le mot de passe",
+      "logoutButton": "Déconnexion",
+      "languageSettings": {
+        "title": "Paramètres de langue",
+        "selectLabel": "Langue",
+        "selectPlaceholder": "Sélectionnez une langue",
+        "successSummary": "Succès",
+        "successDetail": "Préférence linguistique mise à jour.",
+        "errorDetail": "Échec de la sauvegarde de la préférence linguistique."
+      }
+    },
+    "register": {
+      "heading": "Inscription",
+      "firstNamePlaceholder": "Jean",
+      "lastNamePlaceholder": "Dupont",
+      "emailPlaceholder": "{'eg: jean.dupont@gmail.com'}",
+      "loginPrompt": "Vous avez déjà un compte ? Connectez-vous ici",
+      "registerWithGoogle": "S'inscrire avec Google",
+      "registrationFailedToast": "Échec de l'inscription"
+    },
+    "series": { "wip": "WIP" },
+    "user": { "forecastsLabel": "Pronostics" }
+  }
+}

@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-blue: oklch(59.477% 0.20811 258.1);
+  --color-blue-50: oklch(89.621% 0.04817 255.12);
+  --color-blue-100: oklch(86.072% 0.06506 254.93);
+  --color-blue-200: oklch(78.799% 0.10258 255.14);
+  --color-blue-300: oklch(71.857% 0.13995 255.79);
+  --color-blue-400: oklch(65.269% 0.17527 256.32);
+  --color-blue-500: oklch(59.477% 0.20811 258.1);
+  --color-blue-600: oklch(50.793% 0.18985 258.76);
+  --color-blue-700: oklch(40.927% 0.14975 258.49);
+  --color-blue-800: oklch(30.334% 0.10528 257.62);
+  --color-blue-900: oklch(19.162% 0.05512 254.52);
+  --color-blue-950: oklch(12.958% 0.02688 244.15);
+
+  --color-orange: oklch(68.255% 0.21281 40.325);
+  --color-orange-50: oklch(89.404% 0.06199 50.076);
+  --color-orange-100: oklch(86.532% 0.08099 50.505);
+  --color-orange-200: oklch(81.095% 0.1186 49.907);
+  --color-orange-300: oklch(76% 0.15511 47.641);
+  --color-orange-400: oklch(71.722% 0.18739 45.036);
+  --color-orange-500: oklch(68.255% 0.21281 40.325);
+  --color-orange-600: oklch(56.856% 0.17505 40.96);
+  --color-orange-700: oklch(44.858% 0.1351 42.101);
+  --color-orange-800: oklch(32.01% 0.09195 44.726);
+  --color-orange-900: oklch(17.789% 0.04342 56.234);
+  --color-orange-950: oklch(7.5348% 0.01676 66.154);
+
+  --font-default: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+  --transition-height: height, max-height, min-height;
+  --transition-width: width, max-width, min-width;
+
+  --spacing-app: calc(var(--vh, 1vh) * 100);
+}

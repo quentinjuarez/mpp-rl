@@ -1,0 +1,106 @@
+{
+  "title": {
+    "forecasts": "Forecasts",
+    "leaderboard": "Leaderboard",
+    "profile": "Profile",
+    "results": "Results",
+    "matches": "Matches"
+  },
+  "status": { "not_started": "Not started", "running": "Running", "finished": "Finished" },
+  "common": {
+    "username": "Username",
+    "password": "Password",
+    "email": "Email",
+    "error": "Error",
+    "loading": "Loading...",
+    "noResultsFound": "No results found",
+    "noForecastsFound": "No forecasts found",
+    "na": "N/A",
+    "or": "OR",
+    "back": "Back",
+    "logoAlt": "Logo"
+  },
+  "error": {
+    "notFound": {
+      "title": "404 - Page Not Found",
+      "message": "Oops! The page you're looking for doesn't seem to exist.",
+      "homeButton": "Go to Homepage"
+    }
+  },
+  "time": { "hoursSuffix": "h ", "minutesSuffix": "m ", "secondsSuffix": "s" },
+  "forecast": {
+    "noForecastSubmitted": "No forecast submitted.",
+    "pending": "Pending...",
+    "exact": "Exact",
+    "correct": "Correct",
+    "incorrect": "Incorrect",
+    "pointsSuffix": "pts",
+    "chooseWinner": "Choose a winner"
+  },
+  "layout": {
+    "navBar": { "homeAltText": "Home" },
+    "themeSwitcher": { "toggleThemeLabel": "Toggle theme" }
+  },
+  "match": {
+    "bestOf": "Best of:",
+    "statusLabel": "Status:",
+    "scheduledLabel": "Scheduled:",
+    "versus": "vs",
+    "gamesHeading": "Games",
+    "gameLabel": "Game {number}",
+    "gameWon": "{teamName} won",
+    "notFinished": "Not finished"
+  },
+  "pages": {
+    "home": {
+      "title": "Rocket League Matches",
+      "subtitle": "Live updates on current and upcoming matches",
+      "liveMatches": "🟢 Live Matches",
+      "nextMatch": "Next Match:",
+      "startingNow": "Starting now",
+      "noMatchesAvailable": "🚫 No matches available at the moment."
+    },
+    "login": {
+      "heading": "Login",
+      "emailPlaceholder": "{'eg: john.doe@gmail.com'}",
+      "passwordPlaceholder": "••••••••",
+      "registerPrompt": "Don't have an account? Register here",
+      "loginWithGoogle": "Login with Google",
+      "invalidCredentialsToast": "Invalid credentials"
+    },
+    "profile": {
+      "personalInformation": "Personal Information",
+      "firstNameLabel": "First name",
+      "lastNameLabel": "Last name",
+      "accountInformation": "Account Information",
+      "usernamePlaceholder": "Enter your username",
+      "updateUsernameButton": "Update username",
+      "changePassword": "Change Password",
+      "oldPasswordLabel": "Old password",
+      "oldPasswordPlaceholder": "Enter your old password",
+      "newPasswordLabel": "New password",
+      "newPasswordPlaceholder": "Enter your new password",
+      "updatePasswordButton": "Update password",
+      "logoutButton": "Logout",
+      "languageSettings": {
+        "title": "Language Settings",
+        "selectLabel": "Language",
+        "selectPlaceholder": "Select a Language",
+        "successSummary": "Success",
+        "successDetail": "Language preference updated.",
+        "errorDetail": "Failed to save language preference."
+      }
+    },
+    "register": {
+      "heading": "Register",
+      "firstNamePlaceholder": "John",
+      "lastNamePlaceholder": "Doe",
+      "emailPlaceholder": "{'eg: john.doe@gmail.com'}",
+      "loginPrompt": "Already have an account? Login here",
+      "registerWithGoogle": "Register with Google",
+      "registrationFailedToast": "Registration failed"
+    },
+    "series": { "wip": "WIP" },
+    "user": { "forecastsLabel": "Forecasts" }
+  }
+}
