@@ -28,6 +28,5 @@
     "allowSyntheticDefaultImports": true
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue"],
-  "exclude": ["scrapping"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
