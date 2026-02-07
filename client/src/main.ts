@@ -19,6 +19,7 @@ const app = createApp(App)
 const router = initRouter()
 app.use(router)
 
+// @ts-expect-error - Vue3RouterMiddlewares does not have types, but it works fine
 app.use(Vue3RouterMiddlewares, { router })
 
 const pinia = initPinia(router)
