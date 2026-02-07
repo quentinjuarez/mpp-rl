@@ -4,7 +4,6 @@ import logger from "../config/logger";
 import AuthService from "../api/auth/service";
 import UserService from "../api/users/service";
 import ForecastService from "../api/forecasts/service";
-import RLAdapter from "../adapters/rl";
 import PandaScoreAdapter from "../adapters/ps";
 
 class ServicesFactory {
@@ -15,7 +14,6 @@ class ServicesFactory {
   users?: UserService;
   forecasts?: ForecastService;
 
-  rl?: RLAdapter;
   ps?: PandaScoreAdapter;
 
   constructor(req: Request) {
@@ -66,13 +64,6 @@ class ServicesFactory {
       });
     }
     return this.forecasts;
-  }
-
-  rlAdapter() {
-    if (!this.rl) {
-      this.rl = new RLAdapter();
-    }
-    return this.rl;
   }
 
   psAdapter() {

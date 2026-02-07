@@ -28,7 +28,8 @@ connectDB();
 app.use(morgan("dev"));
 app.use(
   cors({
-    origin: process.env.NODE_ENV === "development" ? "*" : corsOptions,
+    origin:
+      process.env.NODE_ENV === "development" ? "*" : (corsOptions as string[]),
   }),
 );
 app.use(express.json());

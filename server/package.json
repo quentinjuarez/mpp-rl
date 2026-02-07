@@ -5,9 +5,9 @@
   "description": "mpp-rl-server",
   "main": "dist/index.js",
   "scripts": {
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts | pino-pretty",
+    "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "nodemon src/index.ts | pino-pretty",
-    "build": "tsc -p .",
     "test": "jest",
     "lint": "eslint . --ext .ts --fix",
     "format": "prettier --write ."
